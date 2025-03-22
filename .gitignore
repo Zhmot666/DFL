@@ -1,0 +1,30 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+
+# Кэш Python и байт-код
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Дистрибутивы и сборки
+dist/
+build/
+*.egg-info/
+
+# Логи и данные
+*.log
+*.json
+!Scheme.json
+errors*.txt
+
+# Временные файлы редакторов
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
